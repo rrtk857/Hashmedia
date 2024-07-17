@@ -1,0 +1,102 @@
+.outer{
+   height: 100vh;
+   background-color: rgb(227, 222, 222);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.login{
+   display: flex;
+   height: 74vh;
+   width: 120vb;
+   background-color: white;
+   border-radius: 2vh;
+   
+}
+.left{
+   flex:1;
+   padding: 3vh;
+   background-image:linear-gradient(rgba(23, 7, 57, 0.5),rgba(23,7,57,0.5)), url("https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?cs=srgb&dl=pexels-cottonbro-studio-4881619.jpg&fm=jpg");
+   background-size: cover;
+   border-bottom-left-radius: 2vh;
+   border-top-left-radius: 2vh;
+   color: white;
+   
+}
+
+.right{
+   flex:1;
+   
+   padding-top: 10vh;
+   padding-left: 6vb;
+   padding-right: 3vb;
+}
+.left h1{
+   color: white;
+   font-size: 10vh;
+}
+.left p{
+   font-size: 2.3vh;
+   font-weight: 400;
+   padding-top: 3vh;
+}
+.left span
+{
+   font-size: 2.5vh;
+   padding-top: 7vh;
+   font-weight: 500;
+   display: inline-block;
+   display:flex;
+}
+.left button{
+   justify-content: center;
+   margin-top: 3vh;
+   padding-left: 8vh;
+   padding-right: 8vh;
+   padding-top: 1vh;
+   padding-bottom: 1vh;
+   border: none;
+   color:grey;
+   cursor:pointer;
+
+}
+.right h1{
+   color:rgb(95, 93, 93);
+}
+.right form{
+   display: flex;
+   flex-direction: column;
+   gap: 60px;
+}
+.user{
+   margin-top:7vh;
+   display: flex;
+   padding-left: 2vh;
+   padding-right: 23vh;
+   padding-top: 0.5vh;
+   padding-bottom: 0.5vh;
+   border-style: inset;
+   border: none;
+   border-bottom: 1px solid rgb(204, 200, 200);
+}
+.pass{
+   display: flex;
+   padding-left: 2vh;
+   padding-right: 23vh;
+   padding-top: 0.5vh;
+   padding-bottom: 0.5vh;
+   border-style: inset;
+   border: none;
+   border-bottom: 1px solid rgb(204, 200, 200);
+}
+.right button{
+   width:50%;
+   padding-top:1.3vh;
+   padding-bottom:1.3vh;
+   border: none;
+   color: white;
+   font-weight: 600;
+   font-size: medium;
+   background-color: rgb(95, 93, 93);
+   cursor:pointer;
+}

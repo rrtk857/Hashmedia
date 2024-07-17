@@ -1,0 +1,127 @@
+.outer1{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 222, 222);
+ }
+ .login1{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 74vh;
+    width: 120vb;
+    background-color: white;
+    border-radius: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+ }
+ .left1{
+    flex:1;
+    padding: 3vh;
+    background-image:linear-gradient(rgba(23, 7, 57, 0.5),rgba(23,7,57,0.5)), url("https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?cs=srgb&dl=pexels-cottonbro-studio-4881619.jpg&fm=jpg");
+    background-size: cover;
+    border-bottom-right-radius: 2vh;
+    border-top-right-radius: 2vh;
+    color: white;
+    
+ }
+ 
+ .right1{
+    flex:1;
+    padding-top: 2vh;
+    padding-left: 6vb;
+    padding-right: 5vb;
+    
+ }
+ .left1 h1{
+    color: white;
+    font-size: 10vh;
+ }
+ .left1 p{
+    font-size: 2.3vh;
+    font-weight: 400;
+    padding-top: 3vh;
+ }
+ .left1 span
+ {
+    font-size: 2.5vh;
+    padding-top: 7vh;
+    font-weight: 500;
+    display: inline-block;
+    display:flex;
+ }
+ .left1 button{
+    justify-content: center;
+    margin-top: 3vh;
+    padding-left: 8vh;
+    padding-right: 8vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: none;
+    color:grey;
+    cursor:pointer;
+ 
+ }
+ .right1 h1{
+    color:rgb(95, 93, 93);
+   
+ }
+ .right1 form{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+ }
+ .user1{
+    margin-top:4vh;
+    display: flex;
+    padding-left: 2vh;
+    padding-right: 23vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-style: inset;
+    border: none;
+    border-bottom: 1px solid rgb(204, 200, 200);
+ }
+ .pass1{
+    display: flex;
+    padding-left: 2vh;
+    padding-right: 23vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-style: inset;
+    border: none;
+    border-bottom: 1px solid rgb(204, 200, 200);
+ }
+ .conpass1{
+    display: flex;
+    padding-left: 2vh;
+    padding-right: 23vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-style: inset;
+    border: none;
+    border-bottom: 1px solid rgb(204, 200, 200);
+ }
+ .email1{
+    display: flex;
+    padding-left: 2vh;
+    padding-right: 23vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-style: inset;
+    border: none;
+    border-bottom: 1px solid rgb(204, 200, 200);
+ }
+ .right1 button{
+    width:50%;
+    padding-top:1.3vh;
+    padding-bottom:1.3vh;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    background-color: rgb(95, 93, 93);
+    cursor:pointer;
+    margin-top: -1vh;
+ }

@@ -1,0 +1,62 @@
+@import "../../pages/style.scss";
+.navbar{
+    @include themify($theme){
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1.6px solid themed("border");
+    position: sticky;
+    top: 0;
+    background-color: themed("bg");
+    color: themed("textColor");
+
+.leftpane{
+    display: flex;
+    gap: 3.5vb;
+    padding-left: 2vb;
+    padding-top: 1.5vh;
+    padding-bottom: 1.7vh;
+}
+.leftpane span{
+    font-size: 2.6vh;
+    font-weight: bolder;
+    color:rgb(95, 93, 93);
+    color: themed("textColor");
+}
+.search{
+    display: flex;
+    border: 1px solid themed("border");
+    padding: 0.1vh;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5px;
+    height: 3.5vh ;
+
+}
+.search input{
+    border: none;
+    width: 40vb;
+    background-color: transparent;
+    color: themed("textColor");
+}
+.rightpane{
+    display: flex;
+    gap: 3.5vb;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-right: 2vb;
+}
+.username{
+    display: flex;
+    gap: 1vb;
+}
+.username img{
+    width: 4vh;
+    height: 4vh;
+    border-radius: 5vh;
+}
+.username span{
+    margin-top: .3vh;
+}
+    }
+}

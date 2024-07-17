@@ -1,0 +1,56 @@
+@import "../../pages/style.scss";
+.leftbar{
+    @include themify($theme){
+    height: 92.7vh;
+    flex:2;
+    position: sticky;
+    top: 54px;
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    background-color: themed("bg");
+
+ 
+.container{
+    padding-left: 3.5vh;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    padding-right: 3.5vh;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+.userpf{
+    display: flex;
+    align-items: center;
+    gap: 1.7vb;
+}
+.userpf img{
+    height: 3.1vh;
+    
+}
+hr{
+    margin-top: 3vh;
+    margin-bottom: 0vh;
+    border: none;
+    height: 0.5px;
+    background-color:themed("border");
+}
+h1{
+    font-size: 2vh;
+    color: themed("textColor");
+    margin-bottom: -2px;
+}
+.userpf span{
+    font-size: 1.8vh;
+    color: themed("textColorsoft");
+}
+.userid{
+    border-radius: 50%;
+}
+    }
+    }
